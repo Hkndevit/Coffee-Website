@@ -1,0 +1,284 @@
+@font-face {
+  font-family: Clicker;
+  src: url("./Fonts/ClickerScript-Regular.ttf");
+}
+@font-face {
+  font-family: Playfair;
+  src: url("./Fonts/PlayfairDisplay-VariableFont_wght.ttf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: var(--white);
+  font-family: Playfair;
+}
+
+p {
+  font-family: Playfair;
+}
+
+h1 {
+  font-family: Clicker;
+  font-weight: 400;
+}
+
+h5 {
+  color: var(--white);
+  font-family: Playfair;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.btn {
+  border: 1px solid #f9c06a;
+  padding: 10px 20px;
+  border-radius: 20px;
+  background-color: #f9c06a;
+}
+
+.btn a {
+  color: var(--gray);
+}
+
+:root {
+  --gray: #1e1e1e;
+  --Light: #f9c06a;
+  --brown: #603809;
+  --white: #ffffff;
+  --lightg: #707070;
+}
+
+.header {
+  background-image: url("./Bilder/coffee_image.png");
+  width: 100vw;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 100px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  color: var(--white);
+  padding-right: 100px;
+  padding-left: 100px;
+}
+
+.nav div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 30%;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  font-family: Clicker;
+  font-size: 40px;
+  padding: 20px;
+  color: var(--white);
+  padding-left: 50px;
+}
+
+.coffee {
+  width: 500px;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  padding-left: 150px;
+  padding-top: 200px;
+}
+
+.coffee .btn {
+  width: 130px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.coffee h1 {
+  color: var(--white);
+  font-size: 250px;
+}
+
+.coffee p {
+  color: var(--white);
+  padding-bottom: 30px;
+}
+
+.discover {
+  padding-left: 150px;
+  padding-right: 100px;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 0;
+}
+
+.discover p {
+  color: var(--lightg);
+  padding-bottom: 30px;
+  width: 500px;
+}
+
+.discover .btn {
+  width: 130px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.discover img {
+  float: right;
+  width: 600px;
+  height: 500px;
+}
+
+.discover div {
+  margin-bottom: 0;
+}
+
+.discover h1 {
+  color: var(--brown);
+  font-weight: bold;
+  font-size: 54px;
+  font-family: Playfair;
+  padding-bottom: 20px;
+}
+
+.asidepic {
+  margin-top: -50px;
+}
+
+.middle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.middle h1 {
+  font-family: Playfair;
+  color: var(--brown);
+  font-size: 60px;
+  font-weight: 600;
+  padding: 10px;
+}
+
+.middle p {
+  font-family: Playfair;
+  color: var(--lightg);
+  font-size: 20px;
+}
+
+.badge {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+
+.badge div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff9f1;
+  flex-direction: column;
+  width: 300px;
+  height: 300px;
+  gap: 10px;
+  padding: 20px;
+  border: 10px solid rgb(255, 255, 255);
+}
+
+.badge img {
+  width: 80px;
+  height: 80px;
+}
+
+.badge h3 {
+  font-family: Playfair;
+  font-size: 25px;
+  color: var(--brown);
+}
+
+.badge p {
+  font-family: Playfair;
+  font-size: 20px;
+  color: var(--lightg);
+  text-align: center;
+}
+
+.middle h2 {
+  font-family: Playfair;
+  font-size: 30px;
+  color: var(--brown);
+}
+
+.middle .btn {
+  border: 1px solid #f9c06a;
+  font-weight: bold;
+  padding: 10px 30px;
+  border-radius: 20px;
+  background-color: #f9c06a;
+  margin-bottom: 30px;
+  margin-top: 20px;
+}
+
+/* COPY PASTE DISCOVER */
+
+.footer {
+  padding-left: 150px;
+  padding-right: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 0;
+  background-color: rgba(48, 21, 2, 0.7);
+  background-image: url("./Bilder/Rectangle\ 14.png");
+  background-blend-mode: multiply;
+  background-size: cover;
+}
+
+.footer p {
+  color: var(--lightg);
+  font-size: 20px;
+  padding-bottom: 30px;
+  width: 500px;
+}
+
+.footer .btn {
+  width: 130px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.footer img {
+  float: right;
+  width: 380px;
+  height: 500px;
+}
+
+.foooter div {
+  margin-bottom: 0;
+  color: white;
+}
+
+.footer h1 {
+  color: var(--brown);
+  font-weight: bold;
+  font-size: 54px;
+  font-family: Playfair;
+  padding-bottom: 20px;
+  width: 700px;
+}
